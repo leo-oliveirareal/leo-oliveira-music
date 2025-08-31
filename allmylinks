@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Leo Oliveira Music</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('fundo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    a {
+      display: block;
+      margin: 15px;
+      padding: 12px 20px;
+      background: yellow;
+      color: black;
+      font-size: 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+      width: 220px;
+    }
+    a:hover {
+      background: orange;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>🎶 Leo Oliveira Music 🎶</h1>
+    <a href="https://youtu.be/lNPSWAftliU?si=uk5TdMc-tGI1AtEq" target="_blank">YouTube</a>
+    <a href="https://www.deezer.com/br/album/812351911?utm_source=deezer&utm_content=album-812351911&utm_term=0_1756430540&utm_medium=web" target="_blank">Deezer</a>
+    <a href="https://music.apple.com/br/album/cora%C3%A7%C3%A3o-capotou/1836249033?i=1836249035" target="_blank">Apple Music</a>
+  </div>
+</body>
+</html>
